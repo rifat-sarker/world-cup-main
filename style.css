@@ -67,6 +67,10 @@ h1{
    display: grid;
    grid-template-columns: repeat(3, 1fr);
 }
+.matches{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 .menu{
     padding: 30px;
     border-radius: 5px;
@@ -76,6 +80,15 @@ h1{
     height: 64px;
     background-color: #FFFFFF;
     border-radius: 10px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.match-summary-2{
+    width: 252px;
+    height: 64px;
+    color: white;
+    border-radius: 10px;
+    background-color: red;
     margin-bottom: 25px;
     font-size: 20px;
 }
@@ -96,6 +109,14 @@ h1{
     margin-bottom: 25px;
     font-size: 20px;
 }
+.blog-2{
+    width: 252px;
+    height: 64px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
 .card{
     width: 312px;
     margin: 10px;
@@ -109,6 +130,7 @@ h1{
     border-radius: 15px;
     text-align: center;
     padding-top: 58px;
+    margin: 18px;
 }
 .match{
     display: flex;
